@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Area of Rectangle</title>
+</head>
+<body>
+    <script>
+        // Function to calculate the area of a rectangle
+        function calculateRectangleArea(length, breadth) {
+            if (length <= 0 || breadth <= 0) {
+                return "Invalid input. Length and breadth should be positive numbers.";
+            }
+            var area = length * breadth;
+            return area;
+        }
+
+        // Test the function with sample values
+        var length = 5;
+        var breadth = 10;
+        var result = calculateRectangleArea(length, breadth);
+        console.log("Area of the rectangle with length " + length + " and breadth " + breadth + " is: " + result);
+    </script>
+</body>
+</html>

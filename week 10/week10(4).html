@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day of the Week</title>
+</head>
+<body>
+    <script>
+        // Get number input using prompt dialog box
+        var dayNumber = parseInt(prompt("Enter a number (1-7) to get the corresponding day of the week:"));
+
+        // Determine the day of the week using switch case
+        var day;
+        switch (dayNumber) {
+            case 1:
+                day = "Sunday";
+                break;
+            case 2:
+                day = "Monday";
+                break;
+            case 3:
+                day = "Tuesday";
+                break;
+            case 4:
+                day = "Wednesday";
+                break;
+            case 5:
+                day = "Thursday";
+                break;
+            case 6:
+                day = "Friday";
+                break;
+            case 7:
+                day = "Saturday";
+                break;
+            default:
+                day = "Invalid";
+                break;
+        }
+
+        // Show the day in an alert dialog box
+        alert("Day of the Week: " + day);
+    </script>
+</body>
+</html>
+

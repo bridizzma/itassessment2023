@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add and Display Items in Array</title>
+</head>
+<body>
+    <script>
+        // Blank array to store items
+        var myArray = [];
+
+        // Function to add items to the array
+        function addItem(item) {
+            myArray.push(item);
+        }
+
+        // Function to display items in the array
+        function displayItems() {
+            console.log("Items in the array:");
+            for (var i = 0; i < myArray.length; i++) {
+                console.log(myArray[i]);
+            }
+        }
+
+        // Test the functions with sample items
+        addItem("Apple");
+        addItem("Banana");
+        addItem("Orange");
+
+        // Display the items in the array
+        displayItems();
+    </script>
+</body>
+</html>

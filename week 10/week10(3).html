@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mark Division</title>
+</head>
+<body>
+    <script>
+        // Input marks (you can replace this with any value)
+        var marks = 75;
+
+        // Determine the division using if...else if...else statements
+        if (marks >= 80 && marks <= 100) {
+            division = "Distinction";
+        } else if (marks >= 60 && marks < 80) {
+            division = "First Division";
+        } else if (marks >= 50 && marks < 60) {
+            division = "Second Division";
+        } else if (marks >= 40 && marks < 50) {
+            division = "Third Division";
+        } else {
+            division = "Fail";
+        }
+
+        // Show the division in an alert dialog box
+        alert("Division: " + division);
+    </script>
+</body>
+</html>
