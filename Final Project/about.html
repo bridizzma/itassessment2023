@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>MY PERSONAL SITE!</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/d812ffa7e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT ME</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT ME</a></li>
+					<li><a href="photos..html">PHOTOS</a></li>
+					<li><a href="portfolio.html">PORTFOLIO</a></li>
+				</ul>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>MY PERSONAL SITE</h1>
+</section>
+
+<!-----------about us content----------->
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>About me</h1>
+			<p>Hi, I am Bridizzma Mishra Paudel and welcome to my website.</p>
+			<p>I'm thrilled to tell you a little bit about me. I have a strong sense of passion for creativity and innovation. I have embraced a variety of opportunities and experiences along the way that have helped me become the person I am today.</p>
+			<p>I have always been fascinated by the beauty of constant learning and the power of knowledge. My curiosity has prompted me to investigate a variety of subjects, including technology, science, art, and literature. Accepting this interdisciplinary approach has broadened my horizons and given me the ability to think critically and adapt in a world that is changing quickly.</p>
+		</div>
+		<div class="about-col">
+			<img src="viber_image_2023-08-06_12-50-00-300.jpg">
+		</div>
+	</div>
+</section>
+
+
+<section class="testimonials">
+	<h1>Interesting Facts</h1>
+	
+	<div class="row">
+		<div class="testimonials-col">
+			
+			<div class="testimonials-cat">
+				<p><b>Multilingual Marvel:</b> I have an incredible talent for languages and can fluently speak multiple languages. This skill allows me to connect with people from various cultures and embrace diversity effortlessly.</p><br>
+				<img src="multilingual.jpg">
+				
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<div class="testimonials-cat">
+				<p><b>Bookworm Extraordinaire:</b> I have an insatiable appetite for books and literature. my personal library is a treasure trove of stories, knowledge, and inspiration,which makes me an engaging conversationalist on a wide range of topics.</p><br>
+				<img src="bookworm.jpg">
+				
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+
+<!-------------Footer-------->
+
+<section class="footer">
+	<h4>Socials.</h4>
+	<div class="icons">
+		<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+		<a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i>by Bridizzma MP.
+</section>
+
+
+
+
+
+<!---------Javascript for Toggle Menu---------->
+<script>
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>	
+	
+<body>
+</html>

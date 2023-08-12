@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>Blog</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+	<script src="https://kit.fontawesome.com/d812ffa7e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT ME</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT ME</a></li>
+					<li><a href="photos..html">PHOTOS</a></li>
+					<li><a href="portfolio.html">PORTFOLIO</a></li>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+	<h1>Blog</h1>
+	<h3 style="text-align: center; padding-bottom: 40px">pieces of my writings.</h3>
+</section>
+
+
+<!-----------blog page content----------->
+<section class="testimonials">
+	
+	<div class="row">
+		<div class="testimonials-col">
+			
+			<div class="testimonials-cat">
+				<p><b>Musings of the Mind - A Journey Through Life's Spectrum</b><br>Musings of the Mind, a personal blog where I explore the kaleidoscope of ideas that pass through my head.</p><br>
+				<img src="musing.jpg">
+				<p>True magic in life frequently resides in the ordinary. I explore the art of discovering beauty in the most basic things in this episode, from a beautiful sunset to a child's laughing. Come celebrate with me as we look for the remarkable in the mundane and appreciate the small pleasures that brighten our days.</p><br>
+				<p>Growth is a lifelong process, and change is the only constant. I offer personal tales of overcoming obstacles, accepting changes, and developing as a person in this part. Let's discuss the benefits of embracing change and the lessons we may gain from stepping outside of our comfort zones.</p><br>
+				<p>Going outside of our comfort zones can inspire us and help us discover who we are. I describe my travel experiences, my interactions with many cultures, and the significant effects these encounters have had on my worldview in the Wanderlust Chronicles. Prepare to explore the wonders of our enormous globe virtually through my stories.</p><br>
+				<p>The secret to finding fulfillment and happiness is gratitude. I write in this thankfulness journal to give thanks for all of my blessings, both great and small. Together, let's begin out on a journey of gratitude and develop an abundance-focused mindset.</p>
+				
+				
+			</div>
+		</div>
+		<div class="testimonials-col">
+			<div class="testimonials-cat">
+				<p><b>The Magic Within: Embracing Your Inner Child</b><br> We frequently lose sight of the magic of our inner child—the spark of innocence, curiosity, and wonder that once enlivened our world—in the rush and bustle of adult life. Come with me on a trip back to that enchanted world where we can rediscover the joy of small pleasures, let our imaginations run wild, and embrace the transformational power of our inner child.When we were kids, our imaginations were limitless. Here, we examine the forgotten skill of daydreaming, a time when imagination soars and the possibilities are virtually endless.</p><br>
+				<img src="innerchild.jpg">
+				<p>Do you have any memories of your childhood dancing in the rain? The secret to happiness is in the little joys of life. In this episode, we celebrate the pleasure of letting go of adult inhibitions, embracing spontaneity, and living in the moment without worry.</p><br>
+				<p>Sometimes life can be too serious, yet our inner child understands the value of play. Let's examine the therapeutic value of fun, games, and levity and how they can reduce stress, promote relationships, and lift our spirits.</p><br>
+				<p>Children have a remarkable ability to teach us valuable life lessons. In this section, we observe the wisdom inherent in their simplicity, resilience, and ability to forgive. Let's open our hearts and minds to the lessons the little ones have to offer.</p><br>
+				<p>We had enormous aspirations when we were young and unwavering faith in them. Let's rekindle that spirit of aspiration and pursue our goals with vigor and optimism. This section explores the pursuit of our dreams and how they influence the direction of our lives.</p>
+				
+			</div>
+		</div>
+	</div>
+
+</section>
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-col">
+			
+			<h2>A reason to why i like writing?</h2>
+			<p>Writing allows me to express my thoughts, emotions, and ideas in a unique and personal way. It gives me the freedom to articulate my innermost feelings and share my perspective with the world.</p><br>
+
+			<p>Writing has the potential to endure beyond my lifetime. It can be a way to leave behind a legacy, as my words and ideas can resonate with readers for generations to come.</p>
+			<br>
+			<p>Ultimately, the reasons I love writing might be a unique combination of some or all of these factors. Writing provides a medium for self-discovery, connection, and expression, allowing me to share my voice and leave an indelible mark on the world.</p>
+			
+			<div class="comment-box">
+				<h3>Leave a comment</h3>
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">					
+					<textarea rows="5" placeholder="Your comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			</div>
+		</div>
+	</div>		
+</section>		
+
+ <!---------facilities----------->
+
+
+
+
+ <!-------------Footer-------->
+
+<section class="footer">
+	<h4>Socials.</h4>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="fa fa-heart-o"></i> by Bridizzma MP.
+</section>
+
+
+
+
+
+ <!---------Javascript for Toggle Menu---------->
+<script
+	var navLinks=document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>	
+	
+<body>
+</html>
